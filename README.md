@@ -1,6 +1,8 @@
 # Cactro Project
 
-This repository contains a release checklist application with a React frontend and an Express + Prisma backend.
+This repository contains a release checklist application with a React frontend and an Express + Prisma backend.## Live Demo
+
+🔗 **Live Application:** [https://release-checklist-omega.vercel.app/](https://release-checklist-omega.vercel.app/)
 
 ## Project structure
 
