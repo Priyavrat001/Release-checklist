@@ -1,0 +1,15 @@
+node_modules
+frontend/node_modules
+backend/node_modules
+.git
+.gitignore
+.env
+.env.*
+Dockerfile*
+**/dist
+**/coverage
+**/.next
+**/.vite
+
+# Ignore screenshot images stored at the repository root
+Screenshot_*.jpg
