@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js",
+    "start": "node app.js && npx prisma migrate deploy",
+    "build": "npm install && npx prisma generate && npm test",
+    "start:prod": "npm run build && node app.js",
     "test": "node --test"
   },
   "keywords": [],
