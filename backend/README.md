@@ -51,6 +51,17 @@ backend/
 └─ README.md
 ```
 
+### Database schema overview
+
+The database schema is designed to store each release as a single record with its checklist and progress details. The `Release` model includes:
+
+- `id`: a unique identifier for each release
+- `name`: the title of the release
+- `dueDate`: the target completion date
+- `additionalInfo`: optional notes or extra information
+- `steps`: a JSON field that stores the checklist items and their completion status
+- `createdAt` and `updatedAt`: timestamps for tracking when a release was created or modified
+
 Environment (.env) sample
 
 Create a `.env` file in `backend/` with at least the following values:
